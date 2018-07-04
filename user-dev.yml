@@ -1,3 +1,12 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: root
+    url: jdbc:mysql://127.0.0.1:3306/springcloud_cell?characterEncoding=utf-8&useSSL=false
+  redis:
+    host: 106.14.122.223
+    port: 6379
 eureka:
   client:
     service-url: http://localhost:8761/eureka/
